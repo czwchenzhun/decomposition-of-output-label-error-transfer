@@ -1,0 +1,11 @@
+﻿top-level directory,file count,bytes,MB,required for submission
+00_Manuscript,96,15991531,15.3,Required
+01_Code,100,738033,0.7,Required
+02_Results_Data,921,712254035,679.3,Required
+03_Figures,16,4778582,4.6,Required (only the 16 figures in use)
+04_Runtime_Logs,1,240,0.0,Can be emptied (script runtime outputs; initially only README.txt)
+05_Model_Weights,188,96608506,92.1,Optional (the whole directory can be deleted; scripts can be retrained)
+06_Reproduction_Outputs,1,313,0.0,Can be emptied (script runtime outputs; initially only README.txt)
+requirements.txt,1,824,0.0,
+Data_Acquisition_and_Reproduction_Guide.md,1,15216,0.0,
+total,1329,830677812,792.2,

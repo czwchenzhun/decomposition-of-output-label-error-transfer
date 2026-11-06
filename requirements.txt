@@ -1,0 +1,21 @@
+﻿# Package dependency list (Python 3.10+; reproducing Paper_Numbers_and_Figures requires only the "core" group)
+# Install: pip install -r requirements.txt
+
+# --- Core: analysis, plotting, build self-check (required for package scripts to run directly) ---
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+matplotlib>=3.7
+PyMuPDF>=1.23          # provides pymupdf / fitz for 00_Manuscript/Build_and_Check_Scripts to read PDFs
+
+# --- Upstream extraction chain: requires raw data, see Data_Acquisition_and_Reproduction_Guide.md ---
+netCDF4>=1.6
+xarray>=2023.1
+rasterio>=1.3
+
+# --- Training chain: requires GPU/ROCm and raw labels, see the guide ---
+torch>=2.0
+scikit-learn>=1.3      # provides sklearn
+lightgbm>=4.0
+
+# Note: LaTeX compilation (xelatex) and the conda environment are not pip dependencies; see README section 3.

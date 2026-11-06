@@ -1,0 +1,2 @@
+Please extract the contents of the compressed file corresponding to the parent directory here.
+This directory stores the npz data used for training (extracted from the original dataset), as well as intermediate and result data for research.
